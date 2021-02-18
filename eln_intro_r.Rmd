@@ -1,0 +1,60 @@
+---
+title: "Introduction To R"
+subtitle: "EPA's Emerging Leaders Network \n2021-02-24"
+author: "Jeff Hollister, ORD/CEMM/ACESD"
+date: 
+output:  
+  powerpoint_presentation:
+    reference_doc: template.pptx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Who am I?
+
+:::::::::::::: {.columns}
+::: {.column}
+- Landscape ecology/GIS/Lakes/Data Science 
+- US EPA Research Ecologist since ~2006
+- Worked on: Forests, wetlands, gopher tortoise, estuaries, lakes, cyanobacteria, ...
+- useR since 2000 (yikes!)
+:::
+
+::: {.column}
+![Jeff in the jon boat](figures/jeff_torqeedo.jpg)
+:::
+::::::::::::::
+
+## What is R?
+
+## Why use R?
+
+## Why I use R?
+
+## Python vs. R
+
+## Python ~~vs.~~ & R
+
+## R and EPA
+
+- R Users Group
+- Installations
+
+## Base R
+
+## Extending Base R: Packages
+
+## What can you do with R?
+
+## Statistics
+
+## Geospatial/GIS
+
+## Documents
+
+## Web applications
+
+
+

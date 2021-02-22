@@ -6,6 +6,8 @@ date:
 output:  
   powerpoint_presentation:
     reference_doc: template.pptx
+  ioslides_presentation: default
+  #slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -29,13 +31,53 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## What is R?
 
+:::::::::::::: {.columns}
+::: {.column}
+- "Free software environment for statistical computing and graphics"
+- Dialect of the S language
+- Written by Ross Ihaka and Robert Gentleman
+- First Release in 1993, version 1.0 in 2000
+- Current version 4.0.4 (aka "Lost Library Book") released Feb 2021.
+- Fully functional, general purpose programming language
+- Excels at statistics and visualization
+- Why is it called "R"?
+:::
+
+::: {.column}
+![](https://www.r-project.org/logo/Rlogo.png)
+
+:::
+::::::::::::::
+
 ## Why use R?
 
-## Why I use R?
+:::::::::::::: {.columns}
+::: {.column}
 
-## Python vs. R
+- Free!
+- Statistics and Graphics
+- GIS/Spatial
+- Writing Papers
+- Presentations (like this one)
+- Develop new tools
+- Reproducibility
+- Open Science
+  
+:::
 
-## Python ~~vs.~~ & R
+::: {.column}
+
+![](figures/why_i_use_r.jpg)
+
+:::
+::::::::::::::
+
+## R vs. Python 
+
+![](figures/r_v_python.jpg)
+## R ~~vs.~~ & Python 
+
+![](figures/r_and_python.jpg)
 
 ## R and EPA
 
@@ -56,5 +98,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Web applications
 
+## Learn More
 
+- #rstats
 

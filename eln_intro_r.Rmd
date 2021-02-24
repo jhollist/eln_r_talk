@@ -13,7 +13,8 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
+options(repos="https://cran.rstudio.com" )
 ```
 
 ## Who am I?
@@ -77,13 +78,17 @@ knitr::opts_chunk$set(echo = FALSE)
 ## R vs. Python 
 
 ![](figures/r_v_python.jpg)
+
 ## R ~~vs.~~ & Python 
 
 ![](figures/r_and_python.jpg)
+- Panel discussion from yesterday!: https://www.youtube.com/watch?v=6mp-BWPnqK4
 
 ## R and EPA
+
 :::::::::::::: {.columns}
 ::: {.column}
+
 - Large and active community
 - January 2019 ~900 installations at EPA (HQ offices only)
 - [R Users Group](https://teams.microsoft.com/l/channel/19%3aa6272ef8a55c404ea56fa19145076a3d%40thread.skype/R%2520User%2520Group?groupId=93022b12-6005-468e-a542-501d13b4caa8&tenantId=88b378b3-6748-4867-acf9-76aacbeca6a7)
@@ -94,13 +99,15 @@ knitr::opts_chunk$set(echo = FALSE)
   - R
   - RStudio
   - Rtools (required build tools for Windows)
-::: {.column}
+
+:::
 ::: {.column}
 
 ![](figures/r_and_epa.jpg)
 
 :::
 ::::::::::::::
+
 ## RStudio
 
 :::::::::::::: {.columns}
@@ -110,6 +117,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Also a company that supports the R community
 - RStudio 1-minute Demo
 
+:::
 ::: {.column}
 
 ![](figures/rstudio.jpg)
@@ -133,7 +141,7 @@ num_functions <- sum(unlist(lapply(base_functions, length)))
   - stats, graphics, parallel computing, ...
 - Base R 1-minute Demo
 
-*Need some sort of image*
+![](figures/all_about_the_bass.jpg)
 
 ## Extending Base R: Packages
 
@@ -147,7 +155,7 @@ bioc_p <- length(BiocManager::available())
   - Bioconductor (https://www.bioconductor.org/): `r bioc_p` packages
     - Genomics/bioinformatics
 
-*Need some sort of image*
+![](figures/package.jpg)
 
 ## What can you do with R?
 
@@ -160,7 +168,8 @@ bioc_p <- length(BiocManager::available())
   - Web applications
 - Off-beat things
 
-*Need some sort of image*
+![](figures/swiss_army.jpg)
+
 
 ## Offbeat things you can do with R
 
@@ -177,6 +186,7 @@ bioc_p <- length(BiocManager::available())
 - [wesanderson](https://cran.r-project.org/package=wesanderson): A Wes Anderson Palette Generator
 :::
 ::: {.column}
+
 ```{r eval=FALSE}
 # Noises!
 beepr::beep(2)
@@ -197,6 +207,7 @@ meme_get("DosEquisMan") %>%
 joke <- dadjokeapi::groan(FALSE)$joke
 rainbowrite::lolcat(joke)
 ```
+
 :::
 ::::::::::::::
 
@@ -268,6 +279,9 @@ mapview(usa_l48_dem) + usa_l48
 
 ## Learn More
 
+:::::::::::::: {.columns}
+::: {.column}
+
 - Twitter
   - #rstats
   - #TidyTuesday
@@ -278,8 +292,12 @@ mapview(usa_l48_dem) + usa_l48
     - September, but we'll see...
 - learnr: https://rstudio.github.io/learnr/
 - The Carpentries: https://carpentries.org/
+:::
+::: {.column}
+![](figures/r_rollercoaster.png)
+:::
+::::::::::::::
 
-*need images*
 
 ## Questions
 
